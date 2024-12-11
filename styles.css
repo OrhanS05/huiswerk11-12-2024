@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+:root {
+  --paars: #5722CD;
+  --blauw: #4845E4; 
+  --roze: #ED4385;
+  --zwart: #0C0C0C;
+  --lichtpaars: #F2F0FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+.outer-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--paars);
+  border: 5px solid yellow; 
+}
+
+.inner-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: white; 
+  color: var(--paars); 
+  margin-top: 40px;
+  border: 5x solid red;
+}
+
+.section .inner-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 5px dashed black;
+  background-color: white; 
+}
+
+.tekst1 {
+  color: var(--paars); 
+  font-size: 1rem;
+  line-height: 1.6; 
+}
+
+.inner-container p {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  border: #0C0C0C 4px; 
+}
+/* --------------- 3.1 Navigation ---------------------- */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: right;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+nav span {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* --------------- 3.2 Button -------------------------- */
+.eerstebutton {
+  background-color: var(--roze);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.eerstebutton:hover {
+  background-color: #ff5c9a;
+}
+
+.tekst1 {
+  color: var(--paars);
+}
+
+.hierklikken {
+  background-color: var(--lichtpaars);}
+
+img {
+  width: 100%;
+}
+
+  .werk-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    color: var(--zwart); 
+    padding: 20px;
+    margin: 100px auto;
+    border: 5px solid lightblue; 
+    max-width: 1200px; 
+  }
+  
+  .werk-article-container {
+    max-width: 50%; 
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .werk-article-container h4 {
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    color: var(--paars); 
+    margin-bottom: 10px;
+  }
+  
+  .werk-article-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .view-project {
+    text-decoration: none;
+    color: var(--paars);
+    font-weight: bold;
+    border: 2px solid var(--paars);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .werk-artikel-image {
+    max-width: 45%; 
+  }
+  
+  .werk-artikel-image img {
+    width: 100%;
+    border: 5px solid purple; 
+    border-radius: 10px;
+  }
+  
+
+  .outer-container-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    color: var(--zwart);
+    padding: 20px;
+    margin: 40px auto;
+    border: 5px solid yellow; 
+    max-width: 1200px; 
+  }
+  
+  .inner-container-variety {
+    max-width: 50%; 
+    text-align: left;
+    padding-left: 20px; 
+    border: 5px solid yellow; 
+  }
+  
+.outer-container-worth {
+  display: flex;
+  justify-content: column;
+  background-color: white;
+  color: var(--zwart)
+}
+
+.inner-container-worth {
+  max-width: 100%;
+  text-align: right;
+  padding-right: 20px;
+  border: 5px solid black;
+}
+  
+.service-tile {
+  flex-basis: 384px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  border: 1px solid #5722CD;
+  box-shadow: 0 11px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #7A7A7A;
+  font-size: 16px;
+}
+
+.service-tile__title {
+  color: #5722CD;
+  font-size: 24px;
+}
+
+.service-tile__icon {
+  width: 80px;
+}
+
+
